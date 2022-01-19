@@ -1,0 +1,116 @@
+/*wrapper*/
+*  {margin: 0px;
+    padding: 2px;
+	border-color: #bdcbdb;
+	box-sizing: border-box;
+	background-color: LightSteelBlue;
+	}
+
+
+#top   {	width: 100%; /*this is the horizontal space*/
+			height:100px; /*this is the vertical*/
+			padding: 20px 20px 5px 5px;
+			border-top: 1px solid #778899;
+			border-right: 1px solid #778899;
+			border-left: 1px solid #778899;
+			background-color: Coral;
+			color: white;
+		}
+
+
+#right  {	width: 85%; /*this is the horizontal space*/
+			height:500px; /*this is the vertical*/
+			margin-right: 0px;
+			border-bottom: 1px solid #778899;
+			border-top: 1px solid #778899;
+			border-right: 1px solid #778899;
+			color: MidnightBlue;
+			float: left; /*position*/
+		}
+		
+#left  {	width: 15%; /*this is the horizontal space*/
+			height:500px; /*this is the vertical*/
+			border-bottom: 1px solid #778899;
+			border-top: 1px solid #778899;
+			border-right: 1px solid #778899;
+			border-left: 1px solid #778899;
+			float: left; /*position*/
+		}
+
+#bottom  {	width: 100%; /*this is the horizontal space*/
+			padding: 10px 10px;
+			border-bottom: 1px solid #778899;
+			border-right: 1px solid #778899;
+			border-left: 1px solid #778899;
+			background-color: Coral;
+			color: white;
+			clear: both; /*float under both divs*/
+		}
+
+		
+#main {	padding:40px;/*for the text*/
+			
+		}
+		
+#top > h1,
+#bottom > p, b{
+		background-color: Coral; /*correcting*/
+}
+		
+.center{ text-align: center;
+		
+		}
+		
+.image { width: 20%;
+		margin: 2px;
+		}
+		
+#image2 {width: 30%;
+		margin: 2px;
+		}
+		
+#pics  { position:relative;
+		display: flex;
+		top:10px;
+		justify-content: center;
+		}
+		
+#pic3  {position:relative;
+		display: flex;
+		border: 0px;
+		justify-content: center;
+		}
+
+		
+.costume {	margin: 0;
+			float: left;
+			
+	}
+		
+#nav li a { display: block; /*fills up the enitre list item and make the whole area clickable*/
+		padding:20px; /*space them out*/
+		text-decoration: none; /*removes the underline of the anchor*/
+		color: #B22222; /*Color of the menu font*/
+		border-bottom: 1px solid #778899;
+		font-size: 23px;
+		}
+		
+#nav 	{padding: 15px;
+		list-style: none; /*removes the bullet points*/
+		}
+		
+#nav li a:hover{ color:#000000; /*to look pretty*/
+				background-color:#F8F8FF;
+				}
+				
+table, tr, td {border: 1px solid MidnightBlue; /*correction*/
+		
+	}
+	
+
+tr, td, textarea, input{
+	background-color: white; /*correction*/
+}
+
+
+		
